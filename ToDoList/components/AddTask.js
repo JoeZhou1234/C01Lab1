@@ -16,7 +16,7 @@ const AddTask = ({ onAddTask }) => {
         <View style={styles.addToDoForm}>
             <TextInput
                 style={styles.input}
-                placeholder="Test Placeholder"
+                placeholder="Enter Task"
                 value={title}
                 onChangeText={(text) => setTitle(text)}
                 returnKeyType="done"
